@@ -1,0 +1,76 @@
+.venda .item{
+    display: grid;
+    justify-items: center;
+    width: 320px;
+    background: #fff;
+    padding:0 20px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    border: 3px solid #F80032;
+}
+
+.venda .item img{
+    padding: 20px;
+    width: 270px;
+    height: 270px;
+    background: #fff;    
+}
+
+.venda .item h1{
+    padding-bottom: 30px;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+}
+
+.venda .item div{
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.venda .item div div{
+    width: 50%;
+    display: grid;
+    justify-items: center;
+    align-content: start;
+    gap: 10%;
+}
+
+
+.venda .item div div h2{
+    font-size: 27px;
+    color: #790018;
+}  
+    
+    
+.venda .item div div h3{
+    cursor: pointer;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    background: #F80032;
+    font-size: 16px;
+}
+    
+    
+.venda .item div div input{
+    font-size: 17px;
+    width: 130px;
+    padding: 5px;
+    border: 3px solid #F80032;
+    color: #790018;
+    outline: 0;
+    border-radius: 5px;
+}
+    
+    
+.venda .item div div p{
+    font-size: 18px;
+}
+
+
+.venda{
+    display: flex;
+    justify-content: space-between;
+}

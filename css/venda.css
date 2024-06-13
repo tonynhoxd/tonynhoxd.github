@@ -1,0 +1,207 @@
+
+.ter{
+    padding: 30px 45px;
+    padding-bottom: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+}
+.ter .tiabas{ 
+    display: inline-block;
+    background: #F8D878;
+    color: #E41745;
+    border: 4px solid #E41745;
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/*
+/////////////////////////////////////////////////////////////////////
+  carrinho
+////////////////////////////////////////////////////////////////////////
+*/
+
+.carrinho{
+    transition: 1s;
+    height: 0;
+    width: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background: #fcd35a;
+    justify-content: end;
+    border-top: 5px solid #790018;
+}
+
+
+.carrinho h1{
+    display: none;
+    color: #790018;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+.car{
+    display: none;
+}
+
+
+ .ui{
+    color: black;
+    border-bottom: 2px solid #790018;
+    padding: 20px;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ifo{
+    display: none;
+    gap: 20px;
+}
+
+.ifo strong{
+    font-size: 17px;
+    width: 300px;
+}
+
+
+.ui p{
+    font-size: 20px;
+    display: none;
+    cursor: pointer;
+    color: #F8D878;
+    border-radius: 10px;
+    padding: 10px;
+    background: #F80032;
+    transition: 0.2s;
+}
+
+.ui p:hover{
+    background: #6d091f;
+}
+
+
+
+.confi{
+    border-top: 4px solid #790018;
+    padding: 25px 0 ;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 150px;
+}
+.confi h2{
+    font-size: 40px;
+}
+.confi h2 strong{
+    color: #F80032;
+    font-size: 45px;
+}
+
+
+.confi h1{
+    cursor: pointer;
+    transition: 0.2s;
+    color: #F8D878;
+    padding: 10px;
+    border-radius: 10px;
+    background: #F80032;
+    font-size: 30px;
+}
+
+
+.confi h1:hover{
+    background: #6d091f;
+}
+
+/*
+ Carro
+*/
+
+
+
+.cari{
+    display: none;
+}
+
+.bucar{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.bucar label ion-icon{
+    position: fixed;
+    bottom: 6%;
+    right: 45px;
+    padding: 13px;
+    display: inline-block;
+    font-size: 50px;
+    cursor: pointer;
+    color: #F80032;
+    border: 4px solid #F80032;
+    background: #f8c52b;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+
+.bucar label ion-icon:hover{
+    color: #f8c52b;
+    border: 4px solid #F80032;
+    background: #F80032;
+}
+
+
+.cari:checked + .bucar .carrinho{
+    padding: 10px 45px;
+    padding-bottom: 29px;
+    width: 100%;
+    height: 2000px;
+    display: flex;
+    height: 100%;
+}
+
+
+.cari:checked + .bucar .carrinho::-webkit-scrollbar-thumb{
+    background: #a52294;
+}
+
+
+
+
+.cari:checked + .bucar .carrinho .car .ifo{
+display: flex;
+}
+
+
+
+.cari:checked + .bucar .carrinho .confi{
+    display: flex;
+}
+
+
+
+.cari:checked + .bucar .carrinho .ui{
+    display: flex;
+}
+
+
+
+.cari:checked + .bucar .carrinho .ui p{
+    display: block;
+}
+
+
+
+.cari:checked + .bucar .carrinho h1{
+    display: block;
+}

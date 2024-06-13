@@ -1,0 +1,67 @@
+
+.rodapé{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 30px 45px;
+    padding-right: 170px;
+    border-top: 7px solid #F80032;
+    background: #F8D878;
+    color: #F80032;
+}
+
+.rodapé div h1{
+    font-size: 30px ;
+}
+
+.rodapé div h1 a{
+    color: #790018;
+    text-decoration: underline;
+    font-size: 27px;
+    transition: 0.2s;
+}
+
+.rodapé div h1 a:hover{
+
+    background: linear-gradient(to left,#6f7e28,#867233,#943047,#6f7e28);
+    background-size: 400% 300%;
+    animation: degra 20s linear infinite alternate;
+    
+    -webkit-background-clip: text;
+    
+    -webkit-text-fill-color: transparent;
+
+    text-decoration: underline;
+
+}
+
+.rodapé div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.rodapé div div a ion-icon {
+font-size: 55px;
+color: #790018;
+transition: 0.2s;
+}
+
+
+.rodapé .pri{
+    display: grid;
+    gap: 10px;
+}
+
+.rodapé .b1:hover{
+    color: #FF0000;
+}
+
+.rodapé .b2:hover{
+   color: #C44E98;
+}
+
+.rodapé .b3:hover{
+    color: #0073B2;
+}    

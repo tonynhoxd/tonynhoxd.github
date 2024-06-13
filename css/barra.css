@@ -1,0 +1,47 @@
+
+
+.barra-pro input{
+    position: relative;
+    outline: 0;
+    width: 455px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+.barra-pro .moda img{
+    width: 50px;
+    padding: 5px;
+    background: #fff;
+   border-radius: 20px;
+}
+.barra-pro .moda{
+    border:  1px solid gray;
+    padding: 10px;
+    transition: 0.2s;
+    list-style-type: none;
+    width: 389px;
+    background: #ebe9e9;
+}
+.barra-pro .moda a {
+    gap: 20px;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.barra-pro .moda:hover{
+    background: #cbc8c8;
+}
+
+
+.barra-pro #box-pes{
+    border-bottom: 4px solid #EA1647;
+    border-right: 4px solid #EA1647;
+    border-left: 4px solid #EA1647;
+
+    position: absolute;
+    display: none;
+}
+

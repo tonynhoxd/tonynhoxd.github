@@ -1,0 +1,114 @@
+
+/*
+/////////////////////////////////////////////////////////////////
+  CARROSEEL
+/////////////////////////////////////////////////////////////////////
+*/
+
+.seg{
+    display: flex;
+
+}
+    
+    
+    
+    .slider{
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+    }
+    
+    
+    .slides{
+        width: 400%;
+        height: 400px;
+        display: flex;
+    }
+    
+    .slides input{
+        display: none;
+    }
+    
+    
+    .slide{
+        transition: 1s;
+        width: 25%;
+        position: relative;
+    }
+    
+    
+    .slide img{
+        height: 400px;
+        width: 100%;
+    }
+    
+    .manual-navigation{
+        position: absolute;
+        width: 100%;
+        top: 640px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    
+    .manual-btn{
+        border: 2px solid #fff;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+    
+    .manual-btn:hover{
+        background: #ffbf00;
+    }
+    
+    
+    #radio1:checked ~ .first{
+    margin-left: 0;
+    }
+    #radio2:checked ~ .first{
+    margin-left: -25%;
+    }
+    #radio3:checked ~ .first{
+    margin-left: -50%;
+    }
+    #radio4:checked ~ .first{
+    margin-left: -75%;
+    }
+    
+    
+    
+    .navigation-auto div{
+    border: 2px solid #ffbf00;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    }
+    
+    
+    .navigation-auto{
+        position: absolute;
+        width: 100%;
+        top: 641px;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    
+    #radio1:checked ~ .navigation-auto .auto-btn1{
+        background: #ffbf00;
+    }
+    #radio2:checked ~ .navigation-auto .auto-btn2{
+        background: #ffbf00;
+    }
+    #radio3:checked ~ .navigation-auto .auto-btn3{
+        background: #ffbf00;
+    }
+    #radio4:checked ~ .navigation-auto .auto-btn4{
+        background: #ffbf00;
+    }
+    
