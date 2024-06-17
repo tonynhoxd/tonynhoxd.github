@@ -2,7 +2,7 @@
 .rodapé{
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
     display: flex;
     padding: 30px 45px;
     padding-right: 170px;
@@ -12,13 +12,19 @@
 }
 
 .rodapé div h1{
-    font-size: 30px ;
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 32px ;
 }
 
 .rodapé div h1 a{
     color: #790018;
     text-decoration: underline;
-    font-size: 27px;
+    font-size: 32px;
     transition: 0.2s;
 }
 
@@ -26,7 +32,7 @@
 
     background: linear-gradient(to left,#6f7e28,#867233,#943047,#6f7e28);
     background-size: 400% 300%;
-    animation: degra 20s linear infinite alternate;
+    animation: degra 10s linear infinite alternate;
     
     -webkit-background-clip: text;
     
@@ -51,7 +57,7 @@ transition: 0.2s;
 
 .rodapé .pri{
     display: grid;
-    gap: 10px;
+    gap: 25px;
 }
 
 .rodapé .b1:hover{
