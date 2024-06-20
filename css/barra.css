@@ -20,7 +20,7 @@
     padding: 10px;
     transition: 0.2s;
     list-style-type: none;
-    width: 389px;
+    width: 494px;
     background: #ebe9e9;
 }
 .barra-pro .moda a {
@@ -45,3 +45,8 @@
     display: none;
 }
 
+
+
+.abas.rolagem .barra-pro .moda{
+    width: 483px;
+}

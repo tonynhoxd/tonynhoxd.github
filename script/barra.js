@@ -1,5 +1,6 @@
 let box = document.getElementById('box-pes');
 
+
 function pes(){
     let input = document.getElementById('bar-pes').value;
     input = input.toLowerCase();
@@ -23,4 +24,8 @@ if(!x[i].innerHTML.toLocaleLowerCase().includes(input)){
 
 function fpes(){
     box.style.display = 'none'
+}
+
+function clibar(){
+    box.style.display = 'none'    
 }

@@ -17,3 +17,10 @@ let  numeforma = 0;
 
 
 
+
+window.addEventListener('scroll', function(){
+
+    let head = document.querySelector('#hed')
+    head.classList.toggle('rolagem', window.scrollY > 550)
+
+})

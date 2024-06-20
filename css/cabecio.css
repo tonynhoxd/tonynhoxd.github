@@ -9,8 +9,8 @@
     background: linear-gradient(to left,#6f7e28,#867233,#943047,#6f7e28);
     background-size: 400% 400%;
     animation: degra 20s linear infinite alternate;
+
     
-    border-bottom: 7px solid #F80032;  
     background-size: 1000px;
 }
 
@@ -53,13 +53,22 @@ flex-wrap: wrap;
 /*decoração das abas*/
 
 .abas{
+ 
     display: flex;
     flex-wrap: wrap;
+    position: absolute;
+    top: 31%;
+    left: 0;
+    transition: 0.2s;
 
-padding: 0 45px;
+
+    width: 100%;
+    padding: 0 45px;
     align-items: center;
     justify-content: space-between;
     background: #FFC20F;
+    border-bottom: 7px solid #F80032;  
+
 }
 
 .abas a{
@@ -72,7 +81,7 @@ padding: 0 45px;
 
 /* abas-barra-------------------------------------------------*/
 
-.barra{
+.abas .barra{
     border-radius: 2px;
     padding: 1px;
     border: 4px solid #EA1647;
@@ -83,22 +92,22 @@ padding: 0 45px;
 }
 
 
-.barra input{
+.abas .barra input{
 color: #460010;
 border: none;    
 background: none;
 padding: 5px;
 outline: 0;
-font-size: 25px;
+font-size: 20px;
 }
 
 
-.barra input::placeholder{
+.abas .barra input::placeholder{
 color: #943047;
 }
 
 
-.barra ion-icon{
+.abas .barra ion-icon{
     padding: 5px;
     font-size: 25px;
     color: #EA1647;
@@ -123,7 +132,7 @@ color: #943047;
 transition: 0.2s;
 
 display: flex;
-font-size: 27px;
+font-size: 20px;
 padding: 20px 40px;
 color: #F80032;
 
@@ -183,4 +192,37 @@ font-size: 30px;
 
 .carinho h1:hover {
 color: #e96b88;
+}
+
+
+
+/*
+///////////////////////////////////////////////////////////////////////////////////
+  menu-fixo-scroll
+///////////////////////////////////////////////////////////////////////////////////
+*/
+
+
+.abas.rolagem{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+.abas.rolagem nav ul li a{
+
+padding: 5px 40px;
+font-size: 25px;
+}
+
+.abas.rolagem .barra input,.abas.rolagem .barra ion-icon{
+    padding: 2px;
+    font-size: 20px;
+}
+
+.abas.rolagem .drop a{
+    padding: 10px 20px;
+    font-size: 30px;
+
 }
